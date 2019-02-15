@@ -66,9 +66,44 @@ p {
     line-height: 1.4;
 }
 
+/* Top Navigation */
+
+header {
+    padding: 20px 0;
+    display:flex;
+    justify-content: space-between;
+}
+
+header nav {
+    
+}
+header nav a {
+    margin: 30px; 
+    font-weight: bold;
+    font-size: 12px;
+    color: black;
+    text-decoration: none;
+
+}
+
+.jumbo {
+margin: 20px;
+display: flex;
+align-self: center;
+}
+
+body {
+    background-color: #0E0E0E;
+}
+.main {
+    width: 1000px;
+    margin: 0 auto;
+    background-color: white;
+}
 .container {
     width: 800px;
     margin: 0 auto;
+    background-color: white;
 }
 
 .top-content {
@@ -143,4 +178,156 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+/* Home Page Boxes */
+/* Box Colors */
+
+.box1 {
+    width: 12.5%;
+    height: 100px;
+    background: teal;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box2 {
+    width: 12.5%;
+    height: 100px;
+    background: gold;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box3 {
+    width: 12.5%;
+    height: 100px;
+    background: cadetblue;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box4 {
+    width: 12.5%;
+    height: 100px;
+    background: coral;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box5 {
+    width: 12.5%;
+    height: 100px;
+    background: crimson;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box6 {
+    width: 12.5%;
+    height: 100px;
+    background: forestgreen;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box7 {
+    width: 12.5%;
+    height: 100px;
+    background: darkorchid;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box8 {
+    width: 12.5%;
+    height: 100px;
+    background: hotpink;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box9 {
+    width: 12.5%;
+    height: 100px;
+    background: indigo;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box10 {
+    width: 12.5%;
+    height: 100px;
+    background: dodgerblue;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* About Page main contecnt/Boxes */
+
+.about-top {
+padding: 30px;
+border-bottom: 1px dashed black;
+}
+
+.about-bottom {
+    padding: 30px;
+}
+
+.about-box {
+    margin: 20px;
+    width: 350px;
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border-bottom: 1px dashed black;
+
+}
+.about-box button {
+border-radius: 10px;
+background: white;
+border: 2px solid black;
+padding:10px;
+width: 130px;
+font-size: 14px;
+font-weight: bold;
+margin: 20px 0;
+}
+
+.about-box .spacing {
+    margin: 10px 0;
+}
+
+.about-box-container {
+    display: flex;
+    flex-wrap: wrap;
 }
